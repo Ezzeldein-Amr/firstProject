@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*------navbar--------------*/
+.nav-item{
+    padding-right: 15px;
+}
+.navbar{
+    padding-left: 160px;
+    padding-right: 160px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 9px 0px;
+}
+/*------header section--------- */
+.header{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) ,rgba(0, 0, 0, 0.5)),url(../images/asset\ 11.jpeg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.slide{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+.one{
+animation: typing 25s infinite ;
+
+}
+.two{
+animation: typing2 25s infinite ;
+}
+.three{
+animation: typing3 25s infinite ;
+}
+.four{
+animation: typing4 25s infinite  ;
+}
+.five{ 
+animation: typing5 25s infinite , blinking 0.7s infinite step-end ;
+border-right: white 2px solid;
+}
+@keyframes typing{
+    0%{width: 0ch;}
+    10%{width: 11.2ch ;}
+    20%{width: 0ch;}
+    100%{width: 0ch;}
+}
+@keyframes typing2{
+    0%{width:  0ch;}
+    21%{width:  0ch; }
+    30%{width:13ch;}
+    40%{width:  0ch;}
+    100%{width:  0ch;}
+}
+@keyframes typing3{
+    0%{width:  0ch;}
+    41%{width: 0ch;}
+    50%{width: 12ch;}
+    60%{width:  0ch;}
+    100%{width:  0ch;}
+}
+@keyframes typing4{
+    0%{width:  0ch;}
+    61%{width:  0ch;}
+    70%{width: 17ch;}
+    80%{width:  0ch;}
+    100%{width:  0ch;}
+}
+@keyframes typing5{
+0%{width:  0ch;}
+81%{width:  0ch;}
+90%{width: 15ch;}
+100%{width:  0ch;}
+}
+@keyframes blinking{
+0%,100%{border-color: transparent;}
+50%{border-color: white;}
+}
+/*------about section--------- */
+#about{
+    background-color: #f5f5f5;
+}
+.right{
+    float: right;
+}
+.disp{
+    display: inline-block;
+}
+.clr{
+    clear: both;
+}
+.shad{
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px ;
+}
+.content p{
+    font-size: 20px;
+    color: #4e4e4e;
+}
+.content h3{
+    font-size: 32px;
+     
+}
+.skills h3{
+    font-size: 17.6px; 
+   margin-bottom: 15px;
+}
+.progress{
+    margin-bottom: 9px;
+    height: 10px;
+}
+
+/*------SERVICES section--------- */
+#services{
+    background-color: #f5f5f5;
+}
+#services h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+#services h3{
+    font-size: 22.4px;
+}
+#services p{
+    color:#4e4e4e ;
+}
+.line{
+    width:40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.serv-shade{
+   box-shadow:  rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+   border-radius: 15px;
+}
+.content1 .myicon{
+    font-size:3rem ;
+    padding-top: 20;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: rgb(0, 120, 255) 0px 0px 0px 10px;
+    transition: 400ms ease-out;
+}
+.content1 .fas{
+    margin-bottom: 20px;
+}
+.content1:hover .myicon{
+    color: white;
+    background-color:#0078ff ;
+    box-shadow:rgb(205, 225, 248)  0px 0px 0px 10px ;
+}
+/*------WORKS COMPLETED section--------- */
+#worked-completed{
+background-image: radial-gradient(rgba(0, 120, 255, 0.7) ,rgba(0, 120, 255, 0.7)),url(../images/asset\ 12.jpeg);
+background-attachment: fixed;
+background-size:cover;
+padding: 8rem;
+}
+.content2{
+    color: white;
+}
+.content2 .n{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.content2 .myicon2{
+    box-shadow:rgb(205, 225, 248) 0px 0px 0px 10px ;
+    font-size: 1.6rem;
+    height: 50;
+    width: 50;
+    padding-top: 10;
+    border-radius: 50%;
+   margin-bottom: 20;
+   margin-top: 20px;
+}
+/*------portfolio section--------- */
+#portfolio{
+    background-color: #f5f5f5;
+}
+#portfolio h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+#portfolio h3{
+    font-size: 22.4px;
+}
+#portfolio p{
+    color:#4e4e4e ;
+}
+#portfolio i{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 5;
+}
+.myimg{
+    overflow: hidden;
+}
+.portfolio-shade{
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+    overflow: hidden;
+}
+.portfolio-shade img{
+    transition: 0.7s;
+}
+.portfolio-shade:hover img{
+    transform: scale(1.15,1.15);
+}
+/*------testmonial section--------- */
+#testimonials{
+    background-image:  radial-gradient(rgba(0, 120, 255, 0.7) ,rgba(0, 120, 255, 0.7)), url(../images/asset\ 13.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+.carousel-indicators li {
+    height: 10;
+}
+/*------blog section--------- */
+#blog{
+    background-color: #f5f5f5;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+#blog h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.blog-shade{
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.flouting{
+    bottom: -14;
+    left: 148;
+    padding: 6 16;
+    color: white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+.avatar-cont{
+   background-color: rgba(0,0,0,.03);
+   border-top: 1px solid rgba(0,0,0,.125)
+}
+#blog i{
+    float: right;
+}
+
+/*------form section--------- */
+#form{
+    background-image:  radial-gradient(rgba(0, 120, 255, 0.7) ,rgba(0, 120, 255, 0.7)), url(../images/asset\ 13.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+
+}
+.line2{
+     width:100px;
+    height: 4px;
+    background-color: #0078ff;
+    
+}
+.icon-form{
+       height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    padding-left: 7;
+}
+.icon-form:hover{
+    background-color: #0078ff;
+    color: white;
+    box-shadow: rgb(205, 225, 248) 0px 0px 0px 3px;
+}
+.icon-form1{
+       height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    padding-left: 10;
+}
+.icon-form1:hover{
+    background-color: #0078ff;
+    color: white;
+    box-shadow: rgb(205, 225, 248) 0px 0px 0px 3px;
+}
+.mybutton{
+    padding:15 40 ;
+    color: white;
+    background-color: #0078ff;
+    border: none;
+    border-radius: 50px;
+}
+footer{
+    background-color: #0062d3;
+    color: white;
+}
